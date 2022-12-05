@@ -1,0 +1,26 @@
+/*Color palette*/
+.light-text{
+    color:#F6EDF4
+}
+.light-accent{
+    background-color: #F6EDF4;
+}
+.dark-text{
+    color:#31343F
+}
+.dark-text-bg{}
+.main-accent{
+    background-color: #18A999;
+}
+.blue-accent{
+    background-color: #78C0CE;
+}
+.brown-accent{
+    background-color: #7E7A64;
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    height:100%
+    
