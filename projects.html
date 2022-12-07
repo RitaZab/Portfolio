@@ -14,7 +14,7 @@
     <div class="container-fluid m-0 p-0 " >
 
         
-        <div class="navbar navbar-expand d-md-none container-fluid  blue-accent position-fixed top-0">
+        <div class="navbar navbar-expand d-md-none container-fluid  blue-accent position-fixed top-0" id="upper-navigation">
             <button class="d-block d-sm-none blue-accent border-1 rounded navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-list"></i>
             </button>
@@ -85,27 +85,29 @@
             </nav>
             <main class="col-md-9 light-accent text-center fixed-left" >
                     <div class="container-fluid mt-5 p-sm-5 p-md-0">
+                        
                         <div class="row">
                             <div class="col-6 col-md-4">
-                            <a><img src="\img\icons\iconhtml.png"></a>
-                            <a><img src="\img\icons\iconcss.png"></a>
+                            <a><img src="img\icons\iconhtml.png"></a>
+                            <a><img src="img\icons\iconcss.png"></a>
                             </div>
-                            <a class="col-3 col-md-4"><img src="\img\icons\iconjs.png"></a>
-                            <a class="col-3 col-md-4"><img src="\img\icons\iconpyt.png"></a>
+                            <a class="col-3 col-md-4"><img src="img\icons\iconjs.png"></a>
+                            <a class="col-3 col-md-4"><img src="img\icons\iconpyt.png"></a>
                         </div>
                     </div>
                     <div class="container-fluid">
-                        <div class="row row-cols-1 row-cols-md-2 g-3">
-                            <div class="col">
-                                <div class="card">
-                                    <a href="projects\SolarSystem\solar.html">
+                        <h2>Projekty wykonane w HTML i CSS</h2>
+                            <div class="card-group">
+                            <div class="col m-2">
+                                <div class="card border border-dark">
+                                    <a href="projects\SolarSystem\solar.html" target="_blank">
                                     <img src="img\projects\project-solarsystem.png" alt="solar-system-project-img" class="card-img-top">
                                     </a>
                                     <div class="card-body light-accent">
                                         <div class="acordion-item">
                                         <p class="lead bold accordion-header">
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                            aria-expanded="true" aria-controls="collapseOne">Solar system in CSS</p>
+                                            aria-expanded="true" aria-controls="collapseOne">Solar system wykonany w CSS</p>
                                             </div>
                                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                                 data-bs-parent="#accordionExample">
@@ -113,18 +115,75 @@
                                                     (Not) so simple project made in HTML and CSS to learn some CSS animation. 
                                                     More features will be added in future. To see the project click on image. 
                                                     If u want to see github repository click link 
-                                                    <a href="https://github.com/RitaZab/SolarSystem" class="btn btn-lg main-accent border-2 border-dark m-2 d-block w-30">Link to Github</a>
-                                                </div></div>
+                                                    <a href="https://github.com/RitaZab/SolarSystem" target="_blank" class="btn btn-lg main-accent border-2 border-dark m-2 d-block w-30">Link to Github</a>
+                                                </div>
+                                            </div>
                                     </div>
                                 </div>
                             </div>
+
+                    
+                            
+                        </div></div>
+                        <hr>
+                        <h2>Projekty wykonane w Java Script</h2>
+                            <div class="row">
+                                <div class="card-group">
+                                    <div class="col m-2">
+                                        <div class="card border border-dark">
+                                            <a href="projects\JSCarousel\carousel.html" target="_blank">
+                                                <img src="img\projects\project-jscarousel.png" alt="carouselInJS" class="h-100 img-fluid">
+                                            </a>
+                                            <div class="card-body light-accent">
+                                                <div class="acordion-item">
+                                                    <p class="lead bold accordion-header">
+                                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Galeria w stylu Karuzela 
+                                                    </p>
+                                                </div>
+                                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                                    data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        Galeria w czystym (Vanilla) JavaScript, wykonana w celu ćwiczeń. 
+                                                        <a href="https://github.com/RitaZab/JSVanillaCarousel" target="_blank"
+                                                            class="btn btn-lg main-accent border-2 border-dark m-2 d-block w-30">Link to Github</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            <div class="col m-2">
+                                <div class="card border border-dark h-100">
+                                    <a href="projects\RockPaperScissors\rockpaperscis.html" target="_blank">
+                                        <img src="img\projects\RPSimage.png" alt="rpd-project-img" class="card-img-top">
+                                    </a>
+                                    <div class="card-body light-accent">
+                                        <div class="acordion-item">
+                                            <p class="lead bold accordion-header">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    Klasyczna gra Papier-Kamień-Nożyce
+                                            </p>
+                                        </div>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Znana wszystkim gra wykonana w czystym (Vanilla) Java Script. 
+                                                <a href="https://github.com/RitaZab/JSRockPaperScissors" target="_blank"
+                                                    class="btn btn-lg main-accent border-2 border-dark m-2 d-block w-30">Link to Github</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div></div>
+                            </div>    </div><hr>
+                            <h2>Projekty wykonane w języku Python</h2>
+                        
+                        
+                        
                         </div>
-                        <figure class="col-sm-6">
-                            <a href="projects\SolarSystem\solar.html"><img src="img\projects\project-solarsystem.png" class="img-fluid"></a>
-                        </figure>
-                        <figure class="col-sm-6">
-                            <a href="projects\JSCarousel\carousel.html"><img src="img\projects\project-jscarousel.png" class="img-fluid"></a>
-                        </figure>
+
+
+                        
                     </div>
             </main>
 
