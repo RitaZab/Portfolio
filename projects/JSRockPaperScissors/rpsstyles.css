@@ -1,0 +1,70 @@
+body{margin:0;
+    padding:0}
+main{
+    margin:10px 100px;
+    width:90%;
+    height:90vh;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 5;
+    
+}
+h1{color:red;
+    grid-column: 1/ span 4;
+    
+    grid-row: 1;
+    
+    text-align: center;
+}
+p{font-size: 20px;}
+.player-buttons{
+    
+    grid-column: 1;
+    grid-row:2/ span 5;
+    text-align: center;
+    
+}
+.player-side{
+    
+    grid-column: 2 ;
+    grid-row: 2/ span 2;
+    border: solid 2px black;
+    text-align: center;
+}
+.computer-side{
+    border: solid 2px black;
+    grid-column: 3/ span 2;
+    grid-row: 2 / span 2;
+    
+    text-align: center;
+}
+.result{
+    
+    grid-column:2/span 3;
+    grid-row:4;
+    text-align: center;
+    padding:1rem
+}
+.points{
+    
+    grid-column:2/span 3;
+    grid-row:5;
+    text-align: center;
+}
+.button{
+    max-height: 8%;
+    border: solid 1px black;
+    padding:1rem;
+}
+.button:hover{
+    cursor:pointer;
+    ;
+}
+.player-icons, .computer-icons {display: none;
+    max-width: 90%;
+    max-height: 80%;
+padding:1rem}
+.active {display:block}
+#result{
+    font-size: 20px;
+}

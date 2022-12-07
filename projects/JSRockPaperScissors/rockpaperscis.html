@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rpsstyles.css">
+    
+    <title>Rock Paper Scissors!</title>
+    
+</head>
+<body>
+    
+    <main>
+        <h1>Let's play Rock Paper Scissors!</h1>
+        <section class="player-buttons">
+            <p class="player-text">Choose your weapon:</p>
+            <img src="icons\stone.png" class="button active" id="rock">
+            <img src="icons\paper.png" class="button" id="paper">
+            <img src="icons\scissors.png" class="button" id="scissors">
+        </section>
+        <section class="player-side">
+            <p>Your choice is: <span id="playerChoice"></span></p>
+            <div class="player-icon">
+            <img src="icons\stone.png" class="player-icons" id="prock">
+            <img src="icons\paper.png" class="player-icons" id="ppaper">
+            <img src="icons\scissors.png" class="player-icons" id="pscissors">
+        </div></section>
+        <section class="computer-side">
+            <p>Computer choice is: <span id="computerChoice"></span><div class="computer-icon"></p>
+            <img src="icons\stone.png" class="computer-icons"  id="crock">
+            <img src="icons\paper.png" class="computer-icons" id="cpaper">
+            <img src="icons\scissors.png" class="computer-icons" id="cscissors">
+        </div></section>
+        <div class="result"><span id="result"></span></div>
+        <div class="points">
+            <h3>Points:</h3>
+            <p>Player <span id="player-points">0</span> : <span id="computer-points">0</span> Computer</p>
+        </div>
+    </main>
+    <script src="rps_app.js"></script>
+</body>
+</html>
