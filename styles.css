@@ -26,4 +26,10 @@
 #upper-navigation{
     z-index: 1;
 }
+@media (orientation: landscape) {
+    .my-photo{
+        display: hidden
+    }
+    
+}
     
