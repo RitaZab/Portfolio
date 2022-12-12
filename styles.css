@@ -26,6 +26,31 @@
 #upper-navigation{
     z-index: 1;
 }
+.animated-menu-contain{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh
+}
+.animated-menu{
+    position: relative;
+    width:300px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animated-toggle{
+    position: relative;
+    width: 60px;
+    height:60px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+}
 @media (orientation: landscape) {
     .my-photo{
         display: hidden
