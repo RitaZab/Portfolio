@@ -18,7 +18,24 @@
 .brown-accent{
     background-color: #7E7A64;
 }
-
+.light-sky-blue{
+    background-color: #6ECBF5;
+}
+.medium-orchid{
+    background-color: #C252E1;
+}
+.lavender{
+    background-color: lavender;
+}
+.royal-blue{
+    background-color: #6878e2;
+}
+.midnight-blue{
+    background-color: #15112c;
+}
+.lavender-text{
+    color:lavender
+}
 .sidebar{
     position:fixed;
     top:0;
