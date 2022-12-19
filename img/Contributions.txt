@@ -25,3 +25,4 @@
 <a target="_blank" href="https://icons8.com/icon/84710/bootstrap">Bootstrap</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/20909/html-5">Html 5</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/21278/css3">CSS3</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/WglYEda4mby5/this-pc">This Pc</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
